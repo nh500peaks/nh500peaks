@@ -1,0 +1,47 @@
+Fields in the list are as follows:
+Rank-Avg = Numeric rank on the list of average (most probable) summits
+Elev-Avg = Summit elevation used for average ranking, mathematically the most likely elevation
+Rank-Prov = Numeric rank on the list of "proven" (most stringent guidelines) summits
+Elev-Prov = Summit elevation used for proven ranking
+Rank-Opt = Numeric rank on the list of optimistic (least stringent guidelines) summits
+Elev-Opt = Summit elevation used for optimistic ranking
+Name = Name of summit, "UP" stands for unnamed peak
+Quad = USGS quad showing summit, only one listed for peaks on edge
+Map1 = Link to ListsofJohn page for peak, link to map if no page 
+Map2 = Link to ListsofJohn page showing alternate summit, or link to map for 2nd summit bump 
+Map3 = Link to map for 3rd summit bump 
+Map4 = Link to map for 4th summit bump 
+Map5 = Link to map for 5th summit bump 
+
+Sort is by average elevation descending (metric elevations rounded in table but not in sort), then name to break ties.
+
+Rank is from the matching summit list, hence average rank is in order but other ranks are not as other summit lists aren't in order.
+
+A 200-foot col is required by some measure to be given a rank. The average method uses an average col and average summit elevation if exact figures aren't given, the mathematicians in the Prominence Yahoo group claim this is the most accurate in showing col depth. ListsofJohn.com uses this method however requires a 300-foot col to be ranked. The "proven" method is favored in the Pacific Northwest where they have peaks to waste, and only ranks peaks which have sufficient col depth using the lowest summit and highest col elevations possible if the map is correct. The optimistic method uses the highest summit and lowest col elevations and yields the most possibilities, and was formerly used by the AMC 4000 Footer Club.
+
+Average summit elevation is the given elevation if one is given above the highest contour, else the average of the contours above and below. Proven summit elevation is the next lower contour elevation if no elevation is given, while optimistic summit elevation is 1 foot less than the next highest contour elevation. If there are multiple contours with the same elevation, average and proven methods use the spot elevation if given while optimistic uses 1 foot less than the higher contour (Tillotson Peak rule). If there are multiple spot elevations above the highest contour, only the largest is used in calculations but the others are shown in map links.
+ 
+Average col elevations (not shown) are the average of the contours above and below, this may be different from Lists of John which sometimes uses spot elevations. Optimistic col elevations are the contour elevation below the col. Proven col elevations are the contour elevation above the col minus 1 foot.
+
+Name comes from ListsofJohn if a name is given there, otherwise identified as UP for unnamed peak (to show it is not found on the map) and usually taken from the oldest available source such as Gene Daniell's 3000-footer list or Arthur Josephson's Peaks of the Universe list.
+
+Quad is the USGS topographic map which shows the peak, map names sometimes change so if in doubt follow the map link.
+
+Map1 to Map5 are links to maps showing up to 5 identical highest summit contour locations. A link will point to the entry on the ListsofJohn.com website for the summit if one exists, otherwise it will be a map link through that site. Of course many summits have multiple bumps which are too small to show as separate contours.
+
+Private Property Warning - The first 200 or so peaks on this list are generally on public land or land of private owners which allow visits, although a peak near the 100 mark was posted for liability reasons the owners have reportedly not yet attempted serious enforcement. The next 200 are mostly on private property and some have serious access restrictions, so ordinary hikers should not expect to visit them all. Many of the remaining peaks have sprouted homes and present diplomatic not mountaineering challenges. 
+
+===
+Historic Mountain Lists of New Hampshire
+ 
+Mary Louise Hancock compiled "The Mountains of New Hampshire" which was published by the NH State Planning Commission in 1949 primarily from USGS 15' topographic maps. This contained only named summits and is most famous for showing Mt Kent as 4000 which also appeared on state maps for years after.  https://www.amazon.com/Mountains-New-Hampshire-Directory-Locations/dp/B002Q2BFS6
+
+The US Board of Geographic Names has a database of named places of which some are identified as summits Once published in hard-copy or microfiche, it is now available online with continuous updates.  Of course both this and the previous source do not include officially-unnamed summits hence even exclude some accepted 4000-footers.
+
+In the 1970s Gene Daniell made a paper list of all summits in NH from the latest USGS 7.5' or 15' topographic maps, including both named summits and points with 200-foot col depth from higher points. He has since climbed over two-thirds of the 2200+/- peaks on this list but not in elevation order. 
+
+In the 1980s Arthur Josephson started the Peaks of the Universe database using Borland dbase III which used similar criteria and ultimately contained all of New England plus parts of many other states including Hawaii. Only appropriate government maps were used so some Canadian peaks were included from official Canadian maps but Olympus Mons wasn't as no official government there has yet issued maps. Dennis Crispo received a list of New England 2000-footers from this source when he finished the 3000-footers, but apparently did not climb them all. As the PeakMaster, Arthur has also climbed over two-thirds of the summits in NH but not necessarily the highest.
+
+With the new century, John Kirk's ListsofJohn.com website grew to include all officially-named summits in NH and those with 300-foot cols. Unnamed peaks with lesser cols are generally not listed. John is an extreme peakbagger but his ascents are rarely in NH. Alan Bernier completed the 500 highest 300-foot-col peaks on this site by visiting all the Ranked peaks.
+
+With topographic maps available online and on CD-ROM, it is no longer necessary to either buy hundreds of paper maps or visit map libraries. Many individuals have made their own lists of various kinds which often contain numerous errors. Thus I put map links in this version, so you can easily see each peak for yourself and decide whether it belongs. I believe this to be the most accurate and consistent NH 500 list available but with nearly 6000 data fields I'm sure that some errors have crept in. Please report them to the gmail account of royswkr, the github interface and the text-tab format allows easy change tracking for those who care.
